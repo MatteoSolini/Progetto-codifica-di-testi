@@ -16,8 +16,10 @@ $ java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/x
 ```shell
 $ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:diario.xml -xsl:progetto.xsl -o:risposta.html
 ```
-Risultato finale: 
+Risultato finale:
+```
 diario.xml: 310;37;0 ms (779 elems, 2674 attrs, 3275 spaces, 13066 chars)
+```
 
 
 
