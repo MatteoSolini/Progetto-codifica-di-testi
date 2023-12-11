@@ -1,4 +1,4 @@
-# <h1>Progetto di Codifica di testi 22/23 </h1>
+# <h1>Progetto di Codifica di testi 2022/2023 </h1>
 
 <p> Questo repository contiene il progetto della materia: <b>Codifica di testi</b> del professor Angelo Mario Del Grosso, nell'anno accademico 2022-2023 del corso di laurea di <b>Informatica Umanistica</b>. </p>
 
