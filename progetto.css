@@ -1,0 +1,257 @@
+/* GOOGLE FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Serif+JP:wght@400;500;600&family=Open+Sans&family=PT+Serif:wght@400;700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+
+
+body{
+    margin:5%;
+    background-color: #c8c8c8;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 400;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.desc{
+  margin-left:25%;
+}
+
+/*navbar*/
+
+.li{
+    display: inline;
+  }
+
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+li{
+    float: left;
+    margin-right:8%;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ li a:hover {
+    background-color: #111;
+    background-color: rgb(192, 11, 11);
+  }
+
+#title {
+    text-align: center; 
+    color:black; 
+    /*margin-left:45%;*/
+
+}
+
+#fotoArtom{
+  float:left;
+  margin-bottom:12%;
+}
+
+
+#descrizione, #bibliografia, #edizione_digitale{
+  border-radius: 20px 20px 20px 20px;
+  background-color: #f4eeee;
+  float:right;
+  width:70%;
+}
+
+
+#paragrafo,#title_biblio,#desc, #prog{
+  margin:2%;
+  width:70%;
+  
+}
+
+#edizione_digitale{
+
+  margin-top:5%;
+}
+
+
+ /*PAGINE*/
+
+
+
+ #pag1, #pag2, #pag3{
+  padding-left:10%;
+  margin-top:5%;
+ }
+
+
+ #pag37, #pag38,#pag39{
+  display:grid;
+  grid-template-columns: 1fr 2fr ; 
+ }
+
+
+ #testo37,#testo38,#testo39{
+  /*margin-left:30%;*/
+  margin-left:12%;
+  margin-bottom:5%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #f4eeee;
+  padding: 1%;
+  line-height:1.5;
+
+ }
+
+
+ /*DIMENZIONE DELLE IMMAGINI*/
+.img37,.img38,.img39{
+  width:733.8px;
+  height:1023.8px;
+
+}
+
+
+#bottoni39{
+  margin-bottom :10%;
+}
+
+
+/*per evidenziare la parola*/
+.evidenziata {
+  color: red;
+}
+
+
+.immag{
+  /*max-width:400px;*/
+  max-width:120%;
+  
+}
+
+#img_emanuele_artom{
+  max-width:120%;
+}
+
+.visibile{
+  display: block;
+}
+
+.visibile2{
+  display: inline;
+}
+
+
+
+/*per nascondere il testo*/
+
+.nascosto{
+  display: none;
+}
+
+#btn{
+  width: 80%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#btn.hover{  transform:scale(1.15);
+
+}
+#btn{
+  
+  border-radius: 20px 20px 20px 20px;
+  border-color: #143377;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  
+}
+
+.function:hover{
+  transform:scale(1.15);
+}
+
+.attivato{
+  opacity: 0.7;
+}
+
+.abbreviazioni{
+  background-color:#ffff80 ;   /* palevioletred*/
+}
+
+.aggiunte{
+  background-color:#c3c3d5;  /*rosso*/
+}
+
+.correzioni{
+  background-color: #cc9966;   /*giallo*/
+}
+
+.testoAgg{
+  background-color: #ffff99; /*viola*/
+}
+
+.cancellature{
+  background-color: #6666ff;   /*chocolate;*/
+}
+
+.nonForm{
+  background-color: #c2f0f0;  /*rosa*/
+}
+
+.luoghi{
+  background-color: #b2b266;   /*blu*/
+}
+
+.persone{
+  background-color: #ff8080;  /*verde*/
+}
+
+.punt{
+  background-color: #ff3333;
+}
+
+
+#cdec{
+  text-decoration: none;
+  color: orange;
+}
+
+#cdec:visited{
+  color:orange;
+}
+.btnFunzioni{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
